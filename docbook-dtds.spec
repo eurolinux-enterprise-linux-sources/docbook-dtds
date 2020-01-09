@@ -3,7 +3,7 @@
 
 Name: docbook-dtds
 Version: 1.0
-Release: 59%{?dist}
+Release: 60%{?dist}
 Group: Applications/Text
 
 Summary: SGML and XML document type definitions for DocBook
@@ -411,6 +411,9 @@ do
 done
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.0-60
+- Mass rebuild 2013-12-27
+
 * Thu Feb 21 2013 Ondrej Vasik <ovasik@redhat.com> - 1.0-59
 - workaround incompatible change in rpm (causing FTBFS)
 
